@@ -1,11 +1,11 @@
 sudo su
 apt-get update
 apt-get upgrade --yes 
-apt-get install git curl python-pip zsh expect --yes
+apt-get install git curl python-pip zsh --yes
 
 export DEBIAN_FRONTEND=noninteractive
 
-apt-get install libmysqlclient-dev mysql-client mysql-server redis --yes
+apt-get install libmysqlclient-dev mysql-client mysql-server redis-server --yes
 
 
 sleep 5
@@ -19,7 +19,7 @@ EOSQL
 #curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 pip install virtualenv
-sudo vagrant
-cd /home/vagrant
-virtualenv venv
+#sudo vagrant
+#cd /home/vagrant
+#virtualenv venv
 

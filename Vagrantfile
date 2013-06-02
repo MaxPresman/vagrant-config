@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "12_04"
 
   config.vm.provision :shell, :path => "bootstrap.sh"
-  config.vm.synced_folder "~/Desktop/vagrant_mount", "/home/vagrant/venv"
+  config.vm.synced_folder "~/Desktop/vagrant_mount", "/home/vagrant"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
