@@ -1,7 +1,7 @@
 sudo su
 apt-get update
 apt-get upgrade --yes 
-apt-get install git curl python-pip zsh --yes
+apt-get install git curl python-pip zsh python-dev --yes
 
 export DEBIAN_FRONTEND=noninteractive
 
